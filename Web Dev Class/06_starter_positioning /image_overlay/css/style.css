@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+	line-height: 267px;
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: 1px;
+}
+
+.overlay-wrapper {
+	width: 400px;
+	height: 267px;
+	margin: 20px auto;
+
+}
+
+.overlay {
+	width: 400px;
+	height: 267px;
+	background-color: rgba(221, 82, 56, .9);
+
+}

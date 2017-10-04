@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+#blue {
+  background-color: #00A6B3; /* Blue */
+  width: 300px;
+  height: 150px;
+}
+
+#orange {
+  background-color: #F15B31; /* Orange */
+  width: 200px;
+  height: 150px;
+
+  /*   Take a look at this code. This should be new to you.
+  Notice that, when the page loads, these lines don't seem to be having an effect */
+  top: 30px;
+  left: 60px;
+
+  /* Part 1 - Uncomment the following line. Reload. Is anything different? */
+  position: fixed;
+
+  /* Part 2 - Change static to relative on the above line. Reload. Is anything different? */
+  /* Try adjusting the top and left values above and see how that changes things. */
+
+  /* Part 3 - Change relative to fixed. Reload. What changed?  */
+  /* Hint: Try scrolling in your browser window. */
+
+}
+
+/* Child */
+.little {
+  background-color: #0D2C40; /* Navy */
+  width: 50px;
+  height: 50px;
+
+  /* Part 4A - Uncomment the following lines. Reload. What happened? */
+  /* Try updating the top and right values to see how that changes things. */
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+/* Parent */
+#pink {
+  background-color: #C879B2; /* Pink */
+  width: 150px;
+  height: 150px;
+  /* Part 4B - Uncomment the following line. Reload. What happened? */
+  position: relative;
+}
