@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  color: #222;
+}
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+h1, h2, h4, a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 100px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  line-height: 300px;
+}
+
+h2 {
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.heading-text {
+  padding: 200px;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  display: inline-block;
+
+}
+h4 {
+  font-weight: bold;
+}
+
+/* ----------------------------------------
+Grid System
+------------------------------------------- */
+.col-8 {
+  padding: 80px 0 0 80px;
+}
+.col-3 {
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 80px;
+}
+.top-section {
+  background: #282726;
+  color: white;
+}
+.col-8 h3 {
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+  background: url("../images/header.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+/* ----------------------------------------
+Menu
+------------------------------------------- */
+.second-section {
+  padding: 80px;
+}
+
+
+
+/* ----------------------------------------
+Drinks
+------------------------------------------- */
+.third-section {
+  padding: 80px;
+  background: url("../images/drinks.jpg");
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  color: white;
+}
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 20px;
+}

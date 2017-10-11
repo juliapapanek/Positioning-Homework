@@ -1,0 +1,97 @@
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 15px;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	text-align: center;
+	color: #44545E;
+	padding: 50px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+form input {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	border: 1px solid #44545e;
+	padding: 5px;
+}
+
+form textarea {
+	display: block;
+	width: 100%;
+	border: 1px solid #44545e;
+	padding-bottom: 100px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+form button {
+	cursor: pointer;
+	outline: 0;
+	border: 2px solid #44545e;
+	padding: 8px;
+	width: 100%;
+	margin-top: 20px;
+	background: #44545e;
+	color: white;
+}
+
+button:hover {
+	background-color: white;
+	color: #44545E;
+}
+/* ----------------------------------------
+Form
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Placeholder Text
+------------------------------------------- */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color: #929CA2;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #929CA2;
+	font-weight: bold;
+	text-transform: capitalize;
+	opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #929CA2;
+	font-weight: bold;
+	text-transform: capitalize;
+	opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #929CA2;
+	font-weight: bold;
+	text-transform: capitalize;
+}
