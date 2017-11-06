@@ -1,0 +1,78 @@
+body {
+  background-color: #008866;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.hamburger-icon {
+  margin: 3em auto;
+  width: 2.5rem;
+  display: block;
+  position: relative;
+  height: 30px;
+}
+
+.hamburger-icon:hover,
+.hamburger-icon:active,
+.hamburger-icon:focus {
+  outline: 0;
+}
+
+
+.line:nth-child(1) {
+  top: 0;
+}
+
+.line:nth-child(2) {
+  top: 12px;
+}
+
+.line:nth-child(3) {
+  top: 24px;
+}
+
+.line {
+  width: 2.5rem;
+  height: .3125rem;
+  background: #E7E6DD;
+  border-radius: 2.5rem;
+  position: absolute;
+  opacity: 1;
+  /* 1. Set the transition property */
+  /* Syntax: propertiesToAnimate animationDuration animationEffect */
+  /* Example: all .3s ease-in-out */
+
+}
+
+/* MIDDLE line */
+.active .line:nth-child(2) {
+  /* 2. When the active class is added to the .hamburger-icon:
+      a) Fade the middle line out (hint: you will need to update the 'opacity' property).
+      b) Move the middle line 16px to the left using a transform (hint: use translateX with a negative px value)  */
+
+
+}
+
+/* TOP line */
+.active .line:first-child {
+  /* 3. When the active class is added to the .hamburger-icon,
+        use the transform property to do BOTH of the following:
+        a) Move the top line 12px down (hint: use translateY)
+        b) Rotate the line 135 degrees
+  */
+
+
+
+}
+
+/* BOTTOM line */
+.active .line:last-child {
+  /* 4. When the active class is added to the .hamburger-icon,
+        use the transform property to do BOTH of the following:
+        a) Move the top line 12px up (hint: use translateY and a negative px value)
+        b) Rotate the line -135 degrees
+  */
+
+
+}
